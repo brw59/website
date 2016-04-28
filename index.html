@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="homepageStyle.css">
+		<h1>Homepage of<br>Benjamin Ray Walker</h1>
+
+		<nav>
+			<ul>
+				<li name="aboutMeTab"><a href="#" class="tablinks" onclick="openCity(event, 'aboutMe');calculateBirthday()">About Me</a></li>
+				<li name="resumeTab"><a href="#" class="tablinks" onclick="openCity(event, 'resume')">Resume</a></li>
+				<li name="projectsTab"><a href="#" class="tablinks" onclick="openCity(event, 'projects')">Projects</a></li>
+				<li name="testimonyTab"><a href="#" class="tablinks" onclick="openCity(event, 'testimony')">Testimony</a></li>
+			</ul>
+		</nav>
+	</head>
+	<body onload="calculateBirthday()"> <!-- addEndlineToDiv() -->
+		<script src="homepageJavaScipt.js"></script>
+		
+		<section id="content">
+			<p><!-- whatever is in content will show up on the top of each tab section --></p>
+		
+			
+			
+			<div id="aboutMe" class="tabcontent">
+				<h3>About Me</h3>
+				
+				<div>
+					<img class="floatRight" src="./images/aboutMe/selfPortrait.jpg" alt="self portrait picture" width="50%" height="50%">
+					<h4>Profile</h4>
+					<p id="myAge"></p>
+					<p>I am the second of 5 kids</p>
+					<p>I am a pretty good chess player</p>
+					<p>I am an Eagle Scout</p>
+					<p>I love outdoor activities including: spelunking, rock climbing, repelling, wakeboarding, sand duning, making toys/puzzles, swimming, diving, paintball, scubadiving (in Hawaii, because it's warmer)</p>
+					<p>I do a lot of things with my family, including trips to St George, UT for recreation activities, hawaii, cruises, family reunions, dinners together, when we're in reach of each other, playing board games, making delicous food, </p>
+					<p>I have spent a significant amount of time the last couple years teaching my friends (and a couple cousins) how to program in C++ and Java and have found surprising joy in doing so. At the current time I only help one friend, and it's mostly debugging Java. I am going to make a strong effort to teach my future kids how to do so though.</p>
+					<p>Of course there are a whole lot of things that I want to do that I haven't done yet, so if you're in the mood to do some of these things, let me know and maybe I'll do them with you!:</p>
+					<ul>
+						<li>Skydiving</li>
+						<li>Start up a bunch of companies (I have my own list of ideas, some of which I've already done the research for)</li>
+						<li>Post the iOS apps I already know how to make in Swift to the App Store</li>
+						<li>Learn how to use Unity</li>
+					</ul>
+				</div>
+					
+				<div>
+					<h4>Education</h4>
+					<p>B.S. in Computer Science at BYU-Idaho</p>
+					<p>I start Grad School to get a Masters in Computer Science in Fall 2016. I'm enrolled in BYU-Provo's program</p>
+				</div>
+				<div>
+					<h4>Other places you'll find me</h4>
+					<p>When you google my full name, four of the 10 links are my own. I hope it's obvious  I have no affiliation with the other links that come up. I here specify which ones are mine:</p>
+					<p><a href="http://elderwalker-lds.blogspot.com/">Missionary blog</a> my sister made for me while I was on my mission for two years</p>
+					<p><a href="https://www.facebook.com/brw.terror">Facebook</a> -- last updated literally years ago</p>
+					<p><a href="https://www.mormon.org/me/7k7k">Mormon.org</a> profile</p>
+					<p><a href="https://github.com/brw59">Github</a></p>
+					<h4>Other places you might find me online:</h4>
+					<p><a href="">Ancestry</a> profile</p>
+					<p><a href="https://www.linkedin.com/in/benjamin-walker-653306b4">LinkedIn</a> profile</p>
+				</div>
+				
+			</div>
+			
+			<div id="resume" class="tabcontent">
+				<h3>Resume</h3>
+				<p>I strive to develop metacognitive habits; In other words, I spend time seeking to improve my own productiveness, behavior, effect on others, experience, and what environments I work best in. </p>
+				<p>GRE Quantitative Reasoning score: 169/170</p>
+				<!-- working on a better way to do this: -->
+				<div>
+					<div class="floatLeft">
+						<p> Programming languages/IDEs/tools/Operating<br>systems I'm very comfortable with using:</p>
+						<ul>
+							<li>C++</li>
+							<li>Swift</li>
+							<li>Java</li>
+							<li>C</li>
+							<li>UNIX</li>
+							<li>Xcode</li>
+							<li>Emacs</li>
+							<li>Sublime Text</li>
+							<li>Macintosh</li>
+							<li>Linux</li>
+						</ul>
+					</div>
+					<div class="floatRight">
+						<p>Programming languages/IDEs/tools/Operating<br>systems I've used for at least<br>one substantial project:</p>
+						<ul>
+							<li>Metal -- iOS programming language</li>
+							<li>OpenGL</li>
+							<li>Python</li>
+							<li>Visual Studio</li>
+							<li>VI</li>
+							<li>Eclipse</li>
+							<li>NetBeans</li>
+							<li>Brackets</li>
+							<li>GitHub</li>
+							<li>Oracle</li>
+							<li>MySQL</li>
+							<li>Objective-C</li>
+							<li>Prolog</li>
+							<li>Emacs Lisp</li>
+							<li>XML</li>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>JavaScipt</li>
+							<li>PHP</li>
+							<li>Assembly code -- 32 bit and 64 bit</li>
+							<li>Windows 7</li>
+						</ul>
+					</div>
+				</div>
+				<p style="clear:left; clear:right">It's currently under development, but I intend to put on the projects page a reference to at least one substantial project I've completed for each of the above mentioned programming languages/etc.</p>
+				
+				<p>Work Experience:</p>
+					<div class="job">
+						<div class="date">
+							April 2014 - April 2015
+						</div>
+						<div class="jobTitle">
+							Computer Assistant
+						</div>
+						<div class="company">
+							BYU-Idaho
+						</div>
+						<div class="roles">
+							<ul>
+								<li>Created and deployed images for all public computers across campus, defined as:</li>
+								<li>
+									<ul>
+										<li>Classroom podium computers</li>
+										<li>Computer labs</li>
+										<li>Windows 7 images</li>
+										<li>Windows 8 testing center tablets</li>
+										<li>Macintosh
+											<ul>
+												<li>I was only student in charge of creating images for Macintosh computers and deploying them to their respective computers</li>
+												<li>When I started working here they began moving Macintosh imaging and deploying them onto our group from some faculty members, I took the initiative to figure out most of it by myself</li>
+											</ul>										
+										</li>
+									</ul>
+								</li>
+								<li>I managed permissions for faculty and student employees</li>
+								<li>Installed software from campus servers. This was mostly for the image creation, but occasionally for individual computers</li>
+								<li>Used Active Directory daily</li>
+								<li>Altiris</li>
+								<li>Troubleshooting computer issues reported through ticket system</li>
+							</ul>
+						</div>
+					</div>
+				<p>
+					iOS, Swift, customer service, algorithms, work well in/with groups and teams, public speaking, inquisitive, management, dedicated, intrigued with new technologies, creative, set goals for myself and I follow up on a weekly basis</p> 
+				<p>My resume is located <a href="./files/resume/r%C3%A9sum%C3%A9_for_Benjamin_Walker_PDF.pdf">here</a> if you'd like to download it</p>
+			</div>
+			
+			<div id="projects" class="tabcontent">
+				<h3>Projects</h3>
+				<p>Projects tab under construction</p>
+			</div>
+			
+			<div id="testimony" class="tabcontent">
+				<h3>Testimony</h3>
+				<p>Testimony tab under construction</p>
+			</div>
+		</section>
+	</body>
+</html>
