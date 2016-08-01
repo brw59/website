@@ -128,3 +128,22 @@ For the resume section
 	;
 }
 
+
+/*
+For collapsing and opening up the projects on the Project tab
+*/
+/*NOT WORKING YET*/
+/*
+table, tr, td, th {
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+tr.projectCollapse {
+    cursor:pointer;
+    display: table-row;
+}
+tr {
+    display: none;
+}
+*/
+

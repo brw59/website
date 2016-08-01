@@ -14,11 +14,16 @@ function addEndlineToDiv() {
 	
 }
 */
-
+ 
 /*
 This javaScript implementation idea was taken from here:
 http://www.w3schools.com/js/js_whereto.asp
 */
+
+function setup(evt, cityName) {
+	openCity(evt, cityName);
+	calculateBirthday();
+}
 
 function openCity(evt, cityName) {
     var i, tabcontent, tablinks;
@@ -41,6 +46,14 @@ function openCity(evt, cityName) {
 			 tablinks[i].parentElement.setAttribute("id", "");
 		 }
     }
+	
+	if (cityName == "projects") {
+//		alert("this is an alert");
+//		$headers;
+		;
+	}
+	
+	
     document.getElementById(cityName).style.display = "block";
 	
    evt.currentTarget.className += " active";
@@ -168,3 +181,4 @@ function isValidDate(dateStr) {
 
 	 return msg;  // date is valid
 }
+

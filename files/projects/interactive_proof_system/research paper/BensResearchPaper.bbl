@@ -1,0 +1,24 @@
+\begin{thebibliography}{1}
+
+\bibitem{zk}
+{\sc Barak, B.}
+\newblock Lecture 15 - zero knowledge proofs.
+\newblock http://www.cs.princeton.edu/courses/archive/fall07/cos433/lec15.pdf,
+  2011.
+
+\bibitem{ips}
+{\sc Fortnow, L.~J.}
+\newblock Complexity-theoretic aspects of interactive proof systems.
+\newblock http://people.cs.uchicago.edu/~fortnow/papers/thesis.pdf, 1989.
+
+\bibitem{mip}
+{\sc Hance, T.}
+\newblock Interactive proof systems with multiple provers sharing entanglement.
+\newblock http://www.scottaaronson.com/showcase2/report/travis-hance.pdf, 2012.
+
+\bibitem{sipser}
+{\sc Sipser, M.}
+\newblock {\em Introduction to the Theory of Computation}.
+\newblock Thomson Course Technology, 2006.
+
+\end{thebibliography}
